@@ -1,70 +1,72 @@
-\contentsline {table}{\numberline {1}{\ignorespaces The meshes used in the problem, their start and end coordinate and number of divisions\relax }}{20}
-\contentsline {table}{\numberline {2}{\ignorespaces The table shows the MDRG-2 scenario for irradiation, note the cells in \leavevmode {\color {blue!25}blue} are repeated 249 times\relax }}{22}
-\contentsline {table}{\numberline {3}{\ignorespaces Table showing the isotopic description of material EPP3L\relax }}{34}
-\contentsline {table}{\numberline {4}{\ignorespaces Table showing the isotopic description of material M908\relax }}{35}
-\contentsline {table}{\numberline {5}{\ignorespaces Table showing the isotopic description of material CryoPipes\relax }}{36}
-\contentsline {table}{\numberline {6}{\ignorespaces Table showing the isotopic description of material M74\relax }}{37}
-\contentsline {table}{\numberline {7}{\ignorespaces Table showing the isotopic description of material EppDucts\relax }}{38}
-\contentsline {table}{\numberline {8}{\ignorespaces Table showing the isotopic description of material M906\relax }}{39}
-\contentsline {table}{\numberline {9}{\ignorespaces Table showing the isotopic description of material M907\relax }}{40}
-\contentsline {table}{\numberline {10}{\ignorespaces Table showing the isotopic description of material UPDSM\relax }}{41}
-\contentsline {table}{\numberline {11}{\ignorespaces Table showing the isotopic description of material EPTRAP\relax }}{42}
-\contentsline {table}{\numberline {12}{\ignorespaces Table showing the isotopic description of material PPWater\relax }}{43}
-\contentsline {table}{\numberline {13}{\ignorespaces Table showing the isotopic description of material M303\relax }}{44}
-\contentsline {table}{\numberline {14}{\ignorespaces Table showing the isotopic description of material EPPCH\relax }}{45}
-\contentsline {table}{\numberline {15}{\ignorespaces Table showing the isotopic description of material B4C\relax }}{46}
-\contentsline {table}{\numberline {16}{\ignorespaces Table showing the isotopic description of material ShieldBlock\relax }}{47}
-\contentsline {table}{\numberline {17}{\ignorespaces Table showing the isotopic description of material UppDucts\relax }}{48}
-\contentsline {table}{\numberline {18}{\ignorespaces Table showing the isotopic description of material M200\relax }}{49}
-\contentsline {table}{\numberline {19}{\ignorespaces Table showing the isotopic description of material EppDiagPipes\relax }}{50}
-\contentsline {table}{\numberline {20}{\ignorespaces Table showing the isotopic description of material EppWaterPipes\relax }}{51}
-\contentsline {table}{\numberline {21}{\ignorespaces Table showing the isotopic description of material EppDIagBox\relax }}{52}
-\contentsline {table}{\numberline {22}{\ignorespaces Table showing the isotopic description of material UPDFW2\relax }}{53}
-\contentsline {table}{\numberline {23}{\ignorespaces Table showing the isotopic description of material PPWheelsDrives\relax }}{54}
-\contentsline {table}{\numberline {24}{\ignorespaces Table showing the isotopic description of material UppExFrames\relax }}{55}
-\contentsline {table}{\numberline {25}{\ignorespaces Table showing the isotopic description of material PPF\relax }}{56}
-\contentsline {table}{\numberline {26}{\ignorespaces Table showing the isotopic description of material UPPFW\relax }}{57}
-\contentsline {table}{\numberline {27}{\ignorespaces Table showing the isotopic description of material M170\relax }}{58}
-\contentsline {table}{\numberline {28}{\ignorespaces Table showing the isotopic description of material M111\relax }}{59}
-\contentsline {table}{\numberline {29}{\ignorespaces Table showing the isotopic description of material M110\relax }}{60}
-\contentsline {table}{\numberline {30}{\ignorespaces Table showing the isotopic description of material M400\relax }}{61}
-\contentsline {table}{\numberline {31}{\ignorespaces Table showing the isotopic description of material UPTRAP\relax }}{62}
-\contentsline {table}{\numberline {32}{\ignorespaces Table showing the isotopic description of material EppExFrames\relax }}{63}
-\contentsline {table}{\numberline {33}{\ignorespaces Table showing the isotopic description of material M623\relax }}{64}
-\contentsline {table}{\numberline {34}{\ignorespaces Table showing the isotopic description of material M622\relax }}{65}
-\contentsline {table}{\numberline {35}{\ignorespaces Table showing the isotopic description of material M621\relax }}{66}
-\contentsline {table}{\numberline {36}{\ignorespaces Table showing the isotopic description of material EppDT\relax }}{67}
-\contentsline {table}{\numberline {37}{\ignorespaces Table showing the isotopic description of material PPWheels\relax }}{68}
-\contentsline {table}{\numberline {38}{\ignorespaces Table showing the isotopic description of material EppMix\relax }}{69}
-\contentsline {table}{\numberline {39}{\ignorespaces Table showing the isotopic description of material M601\relax }}{70}
-\contentsline {table}{\numberline {40}{\ignorespaces Table showing the isotopic description of material M603\relax }}{71}
-\contentsline {table}{\numberline {41}{\ignorespaces Table showing the isotopic description of material M602\relax }}{72}
-\contentsline {table}{\numberline {42}{\ignorespaces Table showing the isotopic description of material EPPDRW\relax }}{73}
-\contentsline {table}{\numberline {43}{\ignorespaces Table showing the isotopic description of material EPPFW\relax }}{74}
-\contentsline {table}{\numberline {44}{\ignorespaces Table showing the isotopic description of material M29\relax }}{75}
-\contentsline {table}{\numberline {45}{\ignorespaces Table showing the isotopic description of material UppExShield\relax }}{76}
-\contentsline {table}{\numberline {46}{\ignorespaces Table showing the isotopic description of material Cryopump\relax }}{77}
-\contentsline {table}{\numberline {47}{\ignorespaces Table showing the isotopic description of material EPPCN\relax }}{78}
-\contentsline {table}{\numberline {48}{\ignorespaces Table showing the isotopic description of material EMH\relax }}{79}
-\contentsline {table}{\numberline {49}{\ignorespaces Table showing the isotopic description of material UPDFW3\relax }}{80}
-\contentsline {table}{\numberline {50}{\ignorespaces Table showing the isotopic description of material FirstWall\relax }}{81}
-\contentsline {table}{\numberline {51}{\ignorespaces Table showing the isotopic description of material UppWater\relax }}{82}
-\contentsline {table}{\numberline {52}{\ignorespaces Table showing the isotopic description of material Lenses\relax }}{83}
-\contentsline {table}{\numberline {53}{\ignorespaces Table showing the isotopic description of material M102\relax }}{84}
-\contentsline {table}{\numberline {54}{\ignorespaces Table showing the isotopic description of material M103\relax }}{85}
-\contentsline {table}{\numberline {55}{\ignorespaces Table showing the isotopic description of material M100\relax }}{86}
-\contentsline {table}{\numberline {56}{\ignorespaces Table showing the isotopic description of material M101\relax }}{87}
-\contentsline {table}{\numberline {57}{\ignorespaces Table showing the isotopic description of material M106\relax }}{88}
-\contentsline {table}{\numberline {58}{\ignorespaces Table showing the isotopic description of material M107\relax }}{89}
-\contentsline {table}{\numberline {59}{\ignorespaces Table showing the isotopic description of material M104\relax }}{90}
-\contentsline {table}{\numberline {60}{\ignorespaces Table showing the isotopic description of material M105\relax }}{91}
-\contentsline {table}{\numberline {61}{\ignorespaces Table showing the isotopic description of material EPPBDY\relax }}{92}
-\contentsline {table}{\numberline {62}{\ignorespaces Table showing the isotopic description of material M108\relax }}{93}
-\contentsline {table}{\numberline {63}{\ignorespaces Table showing the isotopic description of material M109\relax }}{94}
-\contentsline {table}{\numberline {64}{\ignorespaces Table showing the isotopic description of material UppWaterPipes\relax }}{95}
-\contentsline {table}{\numberline {65}{\ignorespaces Table showing the isotopic description of material EppValves\relax }}{96}
-\contentsline {table}{\numberline {66}{\ignorespaces Table showing the isotopic description of material M613\relax }}{97}
-\contentsline {table}{\numberline {67}{\ignorespaces Table showing the isotopic description of material M611\relax }}{98}
-\contentsline {table}{\numberline {68}{\ignorespaces Table showing the isotopic description of material M631\relax }}{99}
-\contentsline {table}{\numberline {69}{\ignorespaces Table showing the isotopic description of material EPP2L\relax }}{100}
-\contentsline {table}{\numberline {70}{\ignorespaces Table showing the isotopic description of material M162\relax }}{101}
+\contentsline {table}{\numberline {1}{\ignorespaces \relax }}{18}
+\contentsline {table}{\numberline {2}{\ignorespaces \relax }}{18}
+\contentsline {table}{\numberline {3}{\ignorespaces The meshes used in the problem, their start and end coordinate and number of divisions\relax }}{20}
+\contentsline {table}{\numberline {4}{\ignorespaces The table shows the MDRG-2 scenario for irradiation, note the cells in \leavevmode {\color {blue!25}blue} are repeated 249 times\relax }}{22}
+\contentsline {table}{\numberline {5}{\ignorespaces Table showing the origin of the material descriptions used}}{25}
+\contentsline {table}{\numberline {6}{\ignorespaces Table showing the isotopic description of material EPP3L}}{39}
+\contentsline {table}{\numberline {7}{\ignorespaces Table showing the isotopic description of material M908}}{41}
+\contentsline {table}{\numberline {8}{\ignorespaces Table showing the isotopic description of material CryoPipes}}{42}
+\contentsline {table}{\numberline {9}{\ignorespaces Table showing the isotopic description of material M74}}{44}
+\contentsline {table}{\numberline {10}{\ignorespaces Table showing the isotopic description of material EppDucts}}{45}
+\contentsline {table}{\numberline {11}{\ignorespaces Table showing the isotopic description of material M906}}{47}
+\contentsline {table}{\numberline {12}{\ignorespaces Table showing the isotopic description of material M907}}{49}
+\contentsline {table}{\numberline {13}{\ignorespaces Table showing the isotopic description of material UPDSM}}{50}
+\contentsline {table}{\numberline {14}{\ignorespaces Table showing the isotopic description of material EPTRAP}}{51}
+\contentsline {table}{\numberline {15}{\ignorespaces Table showing the isotopic description of material PPWater}}{52}
+\contentsline {table}{\numberline {16}{\ignorespaces Table showing the isotopic description of material M303}}{53}
+\contentsline {table}{\numberline {17}{\ignorespaces Table showing the isotopic description of material EPPCH}}{54}
+\contentsline {table}{\numberline {18}{\ignorespaces Table showing the isotopic description of material B4C}}{55}
+\contentsline {table}{\numberline {19}{\ignorespaces Table showing the isotopic description of material ShieldBlock}}{57}
+\contentsline {table}{\numberline {20}{\ignorespaces Table showing the isotopic description of material UppDucts}}{58}
+\contentsline {table}{\numberline {21}{\ignorespaces Table showing the isotopic description of material M200}}{59}
+\contentsline {table}{\numberline {22}{\ignorespaces Table showing the isotopic description of material EppDiagPipes}}{60}
+\contentsline {table}{\numberline {23}{\ignorespaces Table showing the isotopic description of material EppWaterPipes}}{61}
+\contentsline {table}{\numberline {24}{\ignorespaces Table showing the isotopic description of material EppDIagBox}}{62}
+\contentsline {table}{\numberline {25}{\ignorespaces Table showing the isotopic description of material UPDFW2}}{63}
+\contentsline {table}{\numberline {26}{\ignorespaces Table showing the isotopic description of material PPWheelsDrives}}{64}
+\contentsline {table}{\numberline {27}{\ignorespaces Table showing the isotopic description of material UppExFrames}}{65}
+\contentsline {table}{\numberline {28}{\ignorespaces Table showing the isotopic description of material PPF}}{66}
+\contentsline {table}{\numberline {29}{\ignorespaces Table showing the isotopic description of material UPPFW}}{67}
+\contentsline {table}{\numberline {30}{\ignorespaces Table showing the isotopic description of material M170}}{68}
+\contentsline {table}{\numberline {31}{\ignorespaces Table showing the isotopic description of material M111}}{69}
+\contentsline {table}{\numberline {32}{\ignorespaces Table showing the isotopic description of material M110}}{70}
+\contentsline {table}{\numberline {33}{\ignorespaces Table showing the isotopic description of material M400}}{71}
+\contentsline {table}{\numberline {34}{\ignorespaces Table showing the isotopic description of material UPTRAP}}{72}
+\contentsline {table}{\numberline {35}{\ignorespaces Table showing the isotopic description of material EppExFrames}}{73}
+\contentsline {table}{\numberline {36}{\ignorespaces Table showing the isotopic description of material M623}}{74}
+\contentsline {table}{\numberline {37}{\ignorespaces Table showing the isotopic description of material M622}}{75}
+\contentsline {table}{\numberline {38}{\ignorespaces Table showing the isotopic description of material M621}}{76}
+\contentsline {table}{\numberline {39}{\ignorespaces Table showing the isotopic description of material EppDT}}{77}
+\contentsline {table}{\numberline {40}{\ignorespaces Table showing the isotopic description of material PPWheels}}{78}
+\contentsline {table}{\numberline {41}{\ignorespaces Table showing the isotopic description of material EppMix}}{79}
+\contentsline {table}{\numberline {43}{\ignorespaces Table showing the isotopic description of material M603}}{81}
+\contentsline {table}{\numberline {44}{\ignorespaces Table showing the isotopic description of material M602}}{82}
+\contentsline {table}{\numberline {45}{\ignorespaces Table showing the isotopic description of material EPPDRW}}{83}
+\contentsline {table}{\numberline {46}{\ignorespaces Table showing the isotopic description of material EPPFW}}{84}
+\contentsline {table}{\numberline {47}{\ignorespaces Table showing the isotopic description of material M29}}{85}
+\contentsline {table}{\numberline {48}{\ignorespaces Table showing the isotopic description of material UppExShield}}{86}
+\contentsline {table}{\numberline {49}{\ignorespaces Table showing the isotopic description of material Cryopump}}{87}
+\contentsline {table}{\numberline {50}{\ignorespaces Table showing the isotopic description of material EPPCN}}{88}
+\contentsline {table}{\numberline {51}{\ignorespaces Table showing the isotopic description of material EMH}}{89}
+\contentsline {table}{\numberline {52}{\ignorespaces Table showing the isotopic description of material UPDFW3}}{90}
+\contentsline {table}{\numberline {53}{\ignorespaces Table showing the isotopic description of material FirstWall}}{92}
+\contentsline {table}{\numberline {54}{\ignorespaces Table showing the isotopic description of material UppWater}}{93}
+\contentsline {table}{\numberline {55}{\ignorespaces Table showing the isotopic description of material Lenses}}{94}
+\contentsline {table}{\numberline {56}{\ignorespaces Table showing the isotopic description of material M102}}{95}
+\contentsline {table}{\numberline {57}{\ignorespaces Table showing the isotopic description of material M103}}{96}
+\contentsline {table}{\numberline {58}{\ignorespaces Table showing the isotopic description of material M100}}{97}
+\contentsline {table}{\numberline {59}{\ignorespaces Table showing the isotopic description of material M101}}{98}
+\contentsline {table}{\numberline {60}{\ignorespaces Table showing the isotopic description of material M106}}{99}
+\contentsline {table}{\numberline {61}{\ignorespaces Table showing the isotopic description of material M107}}{100}
+\contentsline {table}{\numberline {62}{\ignorespaces Table showing the isotopic description of material M104}}{101}
+\contentsline {table}{\numberline {63}{\ignorespaces Table showing the isotopic description of material M105}}{102}
+\contentsline {table}{\numberline {64}{\ignorespaces Table showing the isotopic description of material EPPBDY}}{103}
+\contentsline {table}{\numberline {65}{\ignorespaces Table showing the isotopic description of material M108}}{104}
+\contentsline {table}{\numberline {66}{\ignorespaces Table showing the isotopic description of material M109}}{105}
+\contentsline {table}{\numberline {67}{\ignorespaces Table showing the isotopic description of material UppWaterPipes}}{106}
+\contentsline {table}{\numberline {68}{\ignorespaces Table showing the isotopic description of material EppValves}}{107}
+\contentsline {table}{\numberline {69}{\ignorespaces Table showing the isotopic description of material M613}}{108}
+\contentsline {table}{\numberline {70}{\ignorespaces Table showing the isotopic description of material M611}}{109}
+\contentsline {table}{\numberline {71}{\ignorespaces Table showing the isotopic description of material M631}}{111}
+\contentsline {table}{\numberline {72}{\ignorespaces Table showing the isotopic description of material EPP2L}}{112}
+\contentsline {table}{\numberline {73}{\ignorespaces Table showing the isotopic description of material M162}}{113}

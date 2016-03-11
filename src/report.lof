@@ -1,10 +1,11 @@
 \contentsline {figure}{\numberline {1}{\ignorespaces Section showing the overall model\relax }}{13}
 \contentsline {figure}{\numberline {2}{\ignorespaces Section some of the major tokamak materials\relax }}{14}
 \contentsline {figure}{\numberline {3}{\ignorespaces Section some of the major tokamak materials\relax }}{15}
-\contentsline {figure}{\numberline {4}{\ignorespaces The high throughput methodology, splitting a given MCNP calculation into smaller calculations spanning a contigious random number seed space\relax }}{19}
+\contentsline {figure}{\numberline {4}{\ignorespaces The high throughput methodology, splitting a given MCNP calculation into smaller calculations spanning a contiguous random number seed space\relax }}{19}
 \contentsline {figure}{\numberline {5}{\ignorespaces The seven different mesh domains, (left) shown with some transparency to indicate where the major boundaries end and (right) showing the absolute scale of the mesh elements\relax }}{20}
-\contentsline {figure}{\numberline {6}{\ignorespaces Slices through the \gls {advantg} produced weight window through y = 0.0 cm and through z = 0.0 cm\relax }}{23}
-\contentsline {figure}{\numberline {7}{\ignorespaces Slices through the total neutron flux (n cm$^{-2}$ src$^{-1}$) y = -17.0 cm and through z = 0.0 cm\relax }}{25}
-\contentsline {figure}{\numberline {8}{\ignorespaces Slices through the total neutron flux (n cm$^{-2}$ src$^{-1}$) z = -500.0 cm and through z = 500.0 cm\relax }}{26}
-\contentsline {figure}{\numberline {9}{\ignorespaces Slices through the total neutron flux (n cm$^{-2}$ src$^{-1}$) y = -17.0 cm and through z = 0.0 cm\relax }}{27}
-\contentsline {figure}{\numberline {10}{\ignorespaces Slices through the total neutron flux (n cm$^{-2}$ src$^{-1}$) z = -500.0 cm and through z = 500.0 cm\relax }}{29}
+\contentsline {figure}{\numberline {6}{\ignorespaces The methodology of having several activation meshes distributed across a given problem to generate several spatially discrete decay sources\relax }}{21}
+\contentsline {figure}{\numberline {7}{\ignorespaces Slices through the \gls {advantg} produced weight window through y = 0.0 cm and through z = 0.0 cm\relax }}{23}
+\contentsline {figure}{\numberline {8}{\ignorespaces Slices through the total neutron flux (n cm$^{-2}$ src$^{-1}$) y = -17.0 cm and through z = 0.0 cm\relax }}{27}
+\contentsline {figure}{\numberline {9}{\ignorespaces Slices through the total neutron flux (n cm$^{-2}$ src$^{-1}$) z = -500.0 cm and through z = 500.0 cm\relax }}{28}
+\contentsline {figure}{\numberline {10}{\ignorespaces Slices through the total neutron flux (n cm$^{-2}$ src$^{-1}$) y = -17.0 cm and through z = 0.0 cm\relax }}{29}
+\contentsline {figure}{\numberline {11}{\ignorespaces Slices through the total neutron flux (n cm$^{-2}$ src$^{-1}$) z = -500.0 cm and through z = 500.0 cm\relax }}{31}

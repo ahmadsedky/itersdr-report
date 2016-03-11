@@ -1,8 +1,9 @@
 \glossaryentry{ADVANTG?\glossentry{advantg}|setentrycounter[]{page}\glsnumberformat}{4}
 \glossaryentry{ACI?\glossentry{aci}|setentrycounter[]{page}\glsnumberformat}{7}
 \glossaryentry{ADVANTG?\glossentry{advantg}|setentrycounter[]{page}\glsnumberformat}{7}
-\glossaryentry{ALARA - [Code]?\glossentry{alara_c}|setentrycounter[]{page}\glsnumberformat}{7}
-\glossaryentry{ALARA - [Principle]?\glossentry{alara_p}|setentrycounter[]{page}\glsnumberformat}{7}
+\glossaryentry{ALARA?\glossentry{alara_c}|setentrycounter[]{page}\glsnumberformat}{7}
+\glossaryentry{ALARA - [Principle] -?\glossentry{alara_p}|setentrycounter[]{page}\glsnumberformat}{7}
+\glossaryentry{BS?\glossentry{bs}|setentrycounter[]{page}\glsnumberformat}{7}
 \glossaryentry{CAD?\glossentry{cad}|setentrycounter[]{page}\glsnumberformat}{7}
 \glossaryentry{CADIS?\glossentry{cadis}|setentrycounter[]{page}\glsnumberformat}{7}
 \glossaryentry{CHTC?\glossentry{chtc}|setentrycounter[]{page}\glsnumberformat}{7}
@@ -26,12 +27,14 @@
 \glossaryentry{ORNL?\glossentry{ornl}|setentrycounter[]{page}\glsnumberformat}{7}
 \glossaryentry{PI?\glossentry{pi}|setentrycounter[]{page}\glsnumberformat}{7}
 \glossaryentry{PyNE?\glossentry{pyne}|setentrycounter[]{page}\glsnumberformat}{7}
+\glossaryentry{PFC?\glossentry{pfc}|setentrycounter[]{page}\glsnumberformat}{7}
 \glossaryentry{R2S?\glossentry{r2s}|setentrycounter[]{page}\glsnumberformat}{7}
 \glossaryentry{SDR?\glossentry{sdr}|setentrycounter[]{page}\glsnumberformat}{7}
 \glossaryentry{TA?\glossentry{ta}|setentrycounter[]{page}\glsnumberformat}{7}
 \glossaryentry{UP?\glossentry{up}|setentrycounter[]{page}\glsnumberformat}{7}
 \glossaryentry{UPP?\glossentry{upp}|setentrycounter[]{page}\glsnumberformat}{7}
 \glossaryentry{UPI?\glossentry{upi}|setentrycounter[]{page}\glsnumberformat}{7}
+\glossaryentry{VE?\glossentry{ve}|setentrycounter[]{page}\glsnumberformat}{7}
 \glossaryentry{SDR?\glossentry{sdr}|setentrycounter[]{page}\glsnumberformat}{8}
 \glossaryentry{CAD?\glossentry{cad}|setentrycounter[]{page}\glsnumberformat}{10}
 \glossaryentry{SDR?\glossentry{sdr}|setentrycounter[]{page}\glsnumberformat}{10}
@@ -42,7 +45,7 @@
 \glossaryentry{EPP?\glossentry{epp}|setentrycounter[]{page}\glsnumberformat}{10}
 \glossaryentry{EP?\glossentry{ep}|setentrycounter[]{page}\glsnumberformat}{10}
 \glossaryentry{LPP?\glossentry{lpp}|setentrycounter[]{page}\glsnumberformat}{10}
-\glossaryentry{ALARA - [Principle]?\glossentry{alara_p}|setentrycounter[]{page}\glsnumberformat}{11}
+\glossaryentry{ALARA - [Principle] -?\glossentry{alara_p}|setentrycounter[]{page}\glsnumberformat}{11}
 \glossaryentry{CAD?\glossentry{cad}|setentrycounter[]{page}\glsnumberformat}{11}
 \glossaryentry{IO?\glossentry{io}|setentrycounter[]{page}\glsnumberformat}{11}
 \glossaryentry{R2S?\glossentry{r2s}|setentrycounter[]{page}\glsnumberformat}{12}
@@ -75,6 +78,7 @@
 \glossaryentry{UPP?\glossentry{upp}|setentrycounter[]{page}\glsnumberformat}{16}
 \glossaryentry{CAD?\glossentry{cad}|setentrycounter[]{page}\glsnumberformat}{16}
 \glossaryentry{DAGMC?\glossentry{dagmc}|setentrycounter[]{page}\glsnumberformat}{17}
+\glossaryentry{UW?\glossentry{uw}|setentrycounter[]{page}\glsnumberformat}{17}
 \glossaryentry{CAD?\glossentry{cad}|setentrycounter[]{page}\glsnumberformat}{17}
 \glossaryentry{DAGMC?\glossentry{dagmc}|setentrycounter[]{page}\glsnumberformat}{17}
 \glossaryentry{MOAB?\glossentry{moab}|setentrycounter[]{page}\glsnumberformat}{17}
@@ -88,44 +92,75 @@
 \glossaryentry{PyNE?\glossentry{pyne}|setentrycounter[]{page}\glsnumberformat}{17}
 \glossaryentry{R2S?\glossentry{r2s}|setentrycounter[]{page}\glsnumberformat}{17}
 \glossaryentry{MCNP?\glossentry{mcnp}|setentrycounter[]{page}\glsnumberformat}{17}
-\glossaryentry{ALARA - [Code]?\glossentry{alara_c}|setentrycounter[]{page}\glsnumberformat}{18}
-\glossaryentry{ALARA - [Code]?\glossentry{alara_c}|setentrycounter[]{page}\glsnumberformat}{18}
-\glossaryentry{ALARA - [Code]?\glossentry{alara_c}|setentrycounter[]{page}\glsnumberformat}{18}
+\glossaryentry{ALARA?\glossentry{alara_c}|setentrycounter[]{page}\glsnumberformat}{18}
+\glossaryentry{UW?\glossentry{uw}|setentrycounter[]{page}\glsnumberformat}{18}
+\glossaryentry{ALARA?\glossentry{alara_c}|setentrycounter[]{page}\glsnumberformat}{18}
+\glossaryentry{ALARA?\glossentry{alara_c}|setentrycounter[]{page}\glsnumberformat}{18}
 \glossaryentry{R2S?\glossentry{r2s}|setentrycounter[]{page}\glsnumberformat}{18}
 \glossaryentry{MCNP?\glossentry{mcnp}|setentrycounter[]{page}\glsnumberformat}{19}
 \glossaryentry{R2S?\glossentry{r2s}|setentrycounter[]{page}\glsnumberformat}{19}
-\glossaryentry{ALARA - [Code]?\glossentry{alara_c}|setentrycounter[]{page}\glsnumberformat}{19}
+\glossaryentry{ALARA?\glossentry{alara_c}|setentrycounter[]{page}\glsnumberformat}{19}
 \glossaryentry{R2S?\glossentry{r2s}|setentrycounter[]{page}\glsnumberformat}{20}
-\glossaryentry{ALARA - [Code]?\glossentry{alara_c}|setentrycounter[]{page}\glsnumberformat}{21}
+\glossaryentry{ALARA?\glossentry{alara_c}|setentrycounter[]{page}\glsnumberformat}{21}
 \glossaryentry{R2S?\glossentry{r2s}|setentrycounter[]{page}\glsnumberformat}{22}
+\glossaryentry{UW?\glossentry{uw}|setentrycounter[]{page}\glsnumberformat}{22}
 \glossaryentry{DAGMC?\glossentry{dagmc}|setentrycounter[]{page}\glsnumberformat}{22}
-\glossaryentry{ORNL?\glossentry{ornl}|setentrycounter[]{page}\glsnumberformat}{22}
-\glossaryentry{ADVANTG?\glossentry{advantg}|setentrycounter[]{page}\glsnumberformat}{22}
-\glossaryentry{ADVANTG?\glossentry{advantg}|setentrycounter[]{page}\glsnumberformat}{22}
-\glossaryentry{DAGMC?\glossentry{dagmc}|setentrycounter[]{page}\glsnumberformat}{22}
+\glossaryentry{ORNL?\glossentry{ornl}|setentrycounter[]{page}\glsnumberformat}{23}
+\glossaryentry{ADVANTG?\glossentry{advantg}|setentrycounter[]{page}\glsnumberformat}{23}
+\glossaryentry{ADVANTG?\glossentry{advantg}|setentrycounter[]{page}\glsnumberformat}{23}
+\glossaryentry{DAGMC?\glossentry{dagmc}|setentrycounter[]{page}\glsnumberformat}{23}
 \glossaryentry{FW-CADIS?\glossentry{fwcadis}|setentrycounter[]{page}\glsnumberformat}{23}
 \glossaryentry{CADIS?\glossentry{cadis}|setentrycounter[]{page}\glsnumberformat}{23}
 \glossaryentry{ADVANTG?\glossentry{advantg}|setentrycounter[]{page}\glsnumberformat}{23}
 \glossaryentry{EPI?\glossentry{epi}|setentrycounter[]{page}\glsnumberformat}{23}
 \glossaryentry{ORNL?\glossentry{ornl}|setentrycounter[]{page}\glsnumberformat}{23}
 \glossaryentry{ADVANTG?\glossentry{advantg}|setentrycounter[]{page}\glsnumberformat}{23}
-\glossaryentry{CHTC?\glossentry{chtc}|setentrycounter[]{page}\glsnumberformat}{24}
-\glossaryentry{MCNP?\glossentry{mcnp}|setentrycounter[]{page}\glsnumberformat}{24}
-\glossaryentry{PyNE?\glossentry{pyne}|setentrycounter[]{page}\glsnumberformat}{24}
-\glossaryentry{MCNP?\glossentry{mcnp}|setentrycounter[]{page}\glsnumberformat}{24}
-\glossaryentry{MCNP?\glossentry{mcnp}|setentrycounter[]{page}\glsnumberformat}{27}
-\glossaryentry{SDR?\glossentry{sdr}|setentrycounter[]{page}\glsnumberformat}{28}
-\glossaryentry{SDR?\glossentry{sdr}|setentrycounter[]{page}\glsnumberformat}{28}
-\glossaryentry{SDR?\glossentry{sdr}|setentrycounter[]{page}\glsnumberformat}{28}
-\glossaryentry{SDR?\glossentry{sdr}|setentrycounter[]{page}\glsnumberformat}{28}
-\glossaryentry{R2S?\glossentry{r2s}|setentrycounter[]{page}\glsnumberformat}{28}
-\glossaryentry{SDR?\glossentry{sdr}|setentrycounter[]{page}\glsnumberformat}{28}
-\glossaryentry{SDR?\glossentry{sdr}|setentrycounter[]{page}\glsnumberformat}{28}
+\glossaryentry{FENDL?\glossentry{fendl}|setentrycounter[]{page}\glsnumberformat}{25}
+\glossaryentry{IO?\glossentry{io}|setentrycounter[]{page}\glsnumberformat}{25}
+\glossaryentry{FENDL?\glossentry{fendl}|setentrycounter[]{page}\glsnumberformat}{25}
+\glossaryentry{MCNP?\glossentry{mcnp}|setentrycounter[]{page}\glsnumberformat}{25}
+\glossaryentry{ENDF?\glossentry{endf}|setentrycounter[]{page}\glsnumberformat}{25}
+\glossaryentry{MCNP?\glossentry{mcnp}|setentrycounter[]{page}\glsnumberformat}{25}
+\glossaryentry{ALARA?\glossentry{alara_c}|setentrycounter[]{page}\glsnumberformat}{25}
+\glossaryentry{MCNP?\glossentry{mcnp}|setentrycounter[]{page}\glsnumberformat}{26}
+\glossaryentry{UPI?\glossentry{upi}|setentrycounter[]{page}\glsnumberformat}{26}
+\glossaryentry{EPI?\glossentry{epi}|setentrycounter[]{page}\glsnumberformat}{26}
+\glossaryentry{MCNP?\glossentry{mcnp}|setentrycounter[]{page}\glsnumberformat}{29}
+\glossaryentry{PI?\glossentry{pi}|setentrycounter[]{page}\glsnumberformat}{29}
+\glossaryentry{SDR?\glossentry{sdr}|setentrycounter[]{page}\glsnumberformat}{30}
+\glossaryentry{SDR?\glossentry{sdr}|setentrycounter[]{page}\glsnumberformat}{30}
+\glossaryentry{SDR?\glossentry{sdr}|setentrycounter[]{page}\glsnumberformat}{30}
+\glossaryentry{SDR?\glossentry{sdr}|setentrycounter[]{page}\glsnumberformat}{30}
 \glossaryentry{R2S?\glossentry{r2s}|setentrycounter[]{page}\glsnumberformat}{30}
-\glossaryentry{PyNE?\glossentry{pyne}|setentrycounter[]{page}\glsnumberformat}{30}
-\glossaryentry{ALARA - [Code]?\glossentry{alara_c}|setentrycounter[]{page}\glsnumberformat}{30}
-\glossaryentry{ALARA - [Code]?\glossentry{alara_c}|setentrycounter[]{page}\glsnumberformat}{30}
-\glossaryentry{FENDL?\glossentry{fendl}|setentrycounter[]{page}\glsnumberformat}{30}
-\glossaryentry{ALARA - [Code]?\glossentry{alara_c}|setentrycounter[]{page}\glsnumberformat}{31}
-\glossaryentry{PyNE?\glossentry{pyne}|setentrycounter[]{page}\glsnumberformat}{31}
-\glossaryentry{ICRP?\glossentry{icrp}|setentrycounter[]{page}\glsnumberformat}{31}
+\glossaryentry{SDR?\glossentry{sdr}|setentrycounter[]{page}\glsnumberformat}{30}
+\glossaryentry{SDR?\glossentry{sdr}|setentrycounter[]{page}\glsnumberformat}{30}
+\glossaryentry{ORNL?\glossentry{ornl}|setentrycounter[]{page}\glsnumberformat}{30}
+\glossaryentry{R2S?\glossentry{r2s}|setentrycounter[]{page}\glsnumberformat}{32}
+\glossaryentry{PyNE?\glossentry{pyne}|setentrycounter[]{page}\glsnumberformat}{32}
+\glossaryentry{ALARA?\glossentry{alara_c}|setentrycounter[]{page}\glsnumberformat}{32}
+\glossaryentry{ALARA?\glossentry{alara_c}|setentrycounter[]{page}\glsnumberformat}{32}
+\glossaryentry{EPP?\glossentry{epp}|setentrycounter[]{page}\glsnumberformat}{32}
+\glossaryentry{GEPP?\glossentry{gepp}|setentrycounter[]{page}\glsnumberformat}{32}
+\glossaryentry{SDR?\glossentry{sdr}|setentrycounter[]{page}\glsnumberformat}{33}
+\glossaryentry{EPI?\glossentry{epi}|setentrycounter[]{page}\glsnumberformat}{33}
+\glossaryentry{SDR?\glossentry{sdr}|setentrycounter[]{page}\glsnumberformat}{33}
+\glossaryentry{EPI?\glossentry{epi}|setentrycounter[]{page}\glsnumberformat}{33}
+\glossaryentry{SDR?\glossentry{sdr}|setentrycounter[]{page}\glsnumberformat}{33}
+\glossaryentry{PFC?\glossentry{pfc}|setentrycounter[]{page}\glsnumberformat}{33}
+\glossaryentry{EPI?\glossentry{epi}|setentrycounter[]{page}\glsnumberformat}{33}
+\glossaryentry{VE?\glossentry{ve}|setentrycounter[]{page}\glsnumberformat}{33}
+\glossaryentry{BS?\glossentry{bs}|setentrycounter[]{page}\glsnumberformat}{33}
+\glossaryentry{EPI?\glossentry{epi}|setentrycounter[]{page}\glsnumberformat}{33}
+\glossaryentry{LP?\glossentry{lp}|setentrycounter[]{page}\glsnumberformat}{33}
+\glossaryentry{EPI?\glossentry{epi}|setentrycounter[]{page}\glsnumberformat}{33}
+\glossaryentry{GEPP?\glossentry{gepp}|setentrycounter[]{page}\glsnumberformat}{33}
+\glossaryentry{UW?\glossentry{uw}|setentrycounter[]{page}\glsnumberformat}{34}
+\glossaryentry{CHTC?\glossentry{chtc}|setentrycounter[]{page}\glsnumberformat}{34}
+\glossaryentry{MCNP?\glossentry{mcnp}|setentrycounter[]{page}\glsnumberformat}{34}
+\glossaryentry{PyNE?\glossentry{pyne}|setentrycounter[]{page}\glsnumberformat}{34}
+\glossaryentry{ALARA?\glossentry{alara_c}|setentrycounter[]{page}\glsnumberformat}{34}
+\glossaryentry{PyNE?\glossentry{pyne}|setentrycounter[]{page}\glsnumberformat}{34}
+\glossaryentry{ICRP?\glossentry{icrp}|setentrycounter[]{page}\glsnumberformat}{34}
+\glossaryentry{ACI?\glossentry{aci}|setentrycounter[]{page}\glsnumberformat}{34}
+\glossaryentry{UW?\glossentry{uw}|setentrycounter[]{page}\glsnumberformat}{36}
+\glossaryentry{CHTC?\glossentry{chtc}|setentrycounter[]{page}\glsnumberformat}{36}
