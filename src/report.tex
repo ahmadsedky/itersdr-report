@@ -217,8 +217,8 @@ This report fulfills deliverable 6 of the task agreement.
 \subsubsection{Rigorous Two Step (R2S) Computational Scheme}
 The \gls{r2s} computational scheme \cite{r2s} is the primary method of generating shutdown
 photon dose rates and fluxes for fusion devices. The method consists
-of 3 main steps; 1) neutron transport, 2) inventory calculation for the problem,
-3) transport of photons resulting from the inventory calculation. Since the
+of 3 main steps; 1) neutron transport calculation to determine the space- and energy-dependent neutron flux distributions, 2) activation calculations to compute the photon source distribution,
+3) a photon transport calculation to estimate the \gls{sdr} resulting from the inventory calculation. Since the
 \gls{r2s} method is tied to a nuclear inventory code, it is capable of handling
 the non-linear variations of nuclide density induced by (n,xn) reactions, which
 \gls{d1s} methods traditionally struggle with. The \gls{r2s} method has been improved
@@ -227,11 +227,7 @@ upon with the addition of mesh based flux determination methods
 gradients to be represented in resultant activation source. 
 
 \subsubsection{FW-CADIS Method}
-The Forward Weighted Consistent Adjoint Driven Importance Sampling \gls{fwcadis} method \cite{wagnerNSEFWCADIS} has typically been used to increase the efficiency to Monte Carlo calculations of distributions, such as flux or dose rate distributions (e.g., mesh tallies), as well as responses at multiple localized detectors and spectra. The basis of this method si the development of an importance function that represents the importance of particles to the objective of uniform Monte Carlo particle density in the desired tally regions. Implementation of this method utilizes the results from a forward of generating weight windows is ideal for a global
-\gls{sdr} photon problem such as this. Two calculations are performed, a
-neutron adjoint problem and a forward neutron problem, the combination of these
-calculations result in mathematically perfect space and enegy dependent biasing
-parameters for the problem simulated. 
+The Forward Weighted Consistent Adjoint Driven Importance Sampling (\gls{fwcadis}) method was originally developed to increase the efficiency of Monte Carlo calculations of distributions, such as flux or dose rate distributions (e.g., mesh tallies), as well as responses at multiple localized detectors and spectra. The basis of this method is the development of an importance function that represents the importance of particles to the objective of uniform Monte Carlo particle density in the desired tally regions. Implementation of this method utilizes the results from a (forward) deterministic calculation to develop a forward-weighted source for a deterministic adjoint calculation. The resulting adjoint function is then used to generate a consistent space- and energy-dependent source biasing parameters and weight windows that are used in a forward Monte Carlo calculation to obtain more uniform statistical uncertainties in the desired tally regions \cite{wagnerNSEFWCADIS} . This method was used to accelerate the neutron Monte Carlo calculation of the \gls{r2s} \gls{sdr}  analysis in this work.
 
 
 \subsection{Input Description}
@@ -301,6 +297,16 @@ DAG-MCNP5 \cite{dagmc} is a version of \gls{mcnp} \cite{mcnp} where the core ray
 queries (point in volume, ray fire, next volume, etc) have their \gls{mcnp}
 versions replaced with the \gls{dagmc} equivlents. DAG-MCNP5 has been validated
 \cite{dagmc_validation} and tested in several ITER analysis in the past.
+
+\subsubsection{ADVANTG}
+The AutomateD VAriance reducTion Generator (ADVANTG) software automates the process of generating variance reduction parameters for continuous-energy Monte Carlo simulations of fixed-source neutron, photon, and coupled neutron-photon transport problems using MCNP5 \cite{advantg} . ADVANTG generates space- and energy-dependent mesh-based weight-window bounds and biased source distributions using three-dimensional discrete ordinates solutions of the adjoint transport equation that are calculated by the Denovo package \cite{denovo}. 
+\\
+\\
+ADVANTG implements the Consistent Adjoint Driven Importance Sampling (CADIS) method \cite{wagnerNSECADIS} and the Forward-Weighted CADIS (FW-CADIS) method \cite{wagnerNSEFWCADIS}  for generating variance reduction parameters. The CADIS and FW-CADIS methods provide a prescription for generating space- and energy-dependent weight-window targets and a consistent biased source distribution. The CADIS method was developed for accelerating individual tallies, whereas FW-CADIS was developed for multiple tallies and mesh tallies. The CADIS method has been demonstrated to provide speed-ups in the tally FOM of $O(10^{1}-10^{4})$ across a broad range of radiation detection and shielding problems. The FW-CADIS method has been shown to produce relatively uniform statistical uncertainties across multiple cell tallies and large space- and energy-dependent mesh tallies in real-world applications \cite{wagnerNSEFWCADIS} .
+\\
+\\
+ADVANTG was updated to support DAGMCNP calculations. This was accomplished by linking the ADVANTG mapping functions that are used to map the Monte Carlo geometry onto the Denovo mesh to the DAGMCNP ray-tracing routines \cite{biondoMC2015}. With this new capability, ADVANTG was able to map the geometry of the Clite CAD model onto a Cartesean mesh to use Denovo to generate the variance reduction parameters for the DAGMCNP5 calculations of the neutron fluxes.
+
 \subsubsection{PyNE}
 The \gls{pyne} \cite{Scopatz2012b} project aims to
 make C++ wrapped Python-accessible library of well validated and tested
@@ -584,15 +590,14 @@ pumping port is unplugged.
   \label{fig:wwinp}
 \end{figure}
 \subsection{Conclusion}
-The final calulcations represent only around 10\% of the overall requested
-runtime, this is mostly due to calculations not completing with the 3 day
-allotted runtime on CHTC, the reason being that is seems the requested VR
-parameters were too extreme resulting in severe oversplitting of particles.
-This has been noticed to occur in several previous challenging attenuating
-geometries and has been attributed to so called long histories. The long history
-problem requires an ultimate solution beyond the scope of this report, but
-perhaps solutions like that already underway at UW-Madison \& \gls{ornl}; GT-CADIS
-\& MS-CADIS respectively.
+The final calculations represent only around 10\% of the overall requested
+runtime; this is mostly due to calculations not completing with the 3 day
+allotted runtime on CHTC. When variance reduction parameters that span over many orders of magnitude are being used in non-analog Monte Carlo simulations, it is difficult to estimate the computational time needed to simulate each particle because some of these particles undergo millions of splitting events. To overcome this problem, the authors suggest 1) using the computer time cutoff (CTME) card in MCNP to stop the MCNP runs after reaching a certain amount of running time without losing the results, 2) to increase the frequency of the printing and dumping of MCNP using the PRDMP card, 3) and to avoid the use of the MPI version of MCNP. The Monte Carlo calculations can still run in parallel without using MPI by submitting independent jobs with different random number seeds and statistically averaging the results. The load balancing of the MPI version of MCNP does not consider the huge differences in the computational times needed to simulate different histories that are typical with the use of variance reduction parameters that span many orders of magnitude. The MCNP runs will not be stopped even if the computational time exceeded the time of the CTME card until MCNP reaches the printing and dumping stage. Without increasing the frequency of these dumping events, the time of the CTME card may be ignored for a very long time.
+\\
+\\
+The authors will also like to note that the use of use of global MC variance-reduction techniques, including the FW-CADIS method does not provide optimum variance reduction parameters for SDR calculations. The goal of these global MC variance-reduction techniques is to uniformly distribute the Monte Carlo computational efforts throughout numerous phase-space segments to calculate many Monte Carlo tallies with nearly uniform relative uncertainties. Even though SDR analysis requires the calculation of space- and energy-dependent neutron fluxes, the goal of the analysis is the accurate assessment of the final \gls{sdr}. Global Monte Carlo variance-reduction techniques do not focus MC computational efforts on calculating the production rates of radioisotopes that will ultimately contribute to the \gls{sdr}. On the contrary, the Multi-Step Consistent Adjoint Driven Importance Sampling (MS-CADIS) hybrid MC/deterministic method is currently under development to speed up the \gls{sdr} Monte Carlo neutron transport calculation using an importance function that represents the neutron importance to the final \gls{sdr} \cite{mscadis}. The MS-CADIS method uses the CADIS method to develop consistent source biasing and weight window variance-reduction parameters. However, because the MS-CADIS method focuses on multistep shielding calculations such as the \gls{r2s} calculations of \gls{sdr}, it develops an importance function for the initial radiation transport calculation (e.g., the neutron calculations in \gls{sdr} simulations) that represents the importance of particles to the final response of the overall simulation. This paper explains the theory of the MS-CADIS method and provides some insights into the physical interpretations of the MS-CADIS adjoint neutron source and theMS-CADIS adjoint neutron flux.
+
+ 
 \newpage
 \clearpage
 
