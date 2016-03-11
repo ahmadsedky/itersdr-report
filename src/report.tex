@@ -214,23 +214,26 @@ This report fulfills deliverable 6 of the task agreement.
 \newpage
 \section{Solution Methodology}
 \subsection{Background}
-\subsubsection{FW-CADIS Method}
-The \gls{fwcadis} method of generating weight windows is ideal for a global
-\gls{sdr} photon problem such as this. Two calculations are performed, a
-neutron adjoint problem and a forward neutron problem, the combination of these
-calculations result in mathematically perfect space and enegy dependent biasing
-parameters for the problem simulated. 
-\subsubsection{Rigorous Two Step (R2S) Method}
-The \gls{r2s} method \cite{r2s} is the primary method of generating shutdown
-photon doserates and fluxes for fusion devices. The method has been improved
-upon with the addition of mesh based flux determination methods
-\cite{mcr2s,r2smesh,r2suned,pyne_r2s} which allow more fine neutron flux
-gradients to be represented in resultant activation source. The method consists
+\subsubsection{Rigorous Two Step (R2S) Computational Scheme}
+The \gls{r2s} computational scheme \cite{r2s} is the primary method of generating shutdown
+photon dose rates and fluxes for fusion devices. The method consists
 of 3 main steps; 1) neutron transport, 2) inventory calculation for the problem,
 3) transport of photons resulting from the inventory calculation. Since the
 \gls{r2s} method is tied to a nuclear inventory code, it is capable of handling
 the non-linear variations of nuclide density induced by (n,xn) reactions, which
-\gls{d1s} methods traditionally struggle with.
+\gls{d1s} methods traditionally struggle with. The \gls{r2s} method has been improved
+upon with the addition of mesh based flux determination methods
+\cite{mcr2s,r2smesh,r2suned,pyne_r2s} which allow more fine neutron flux
+gradients to be represented in resultant activation source. 
+
+\subsubsection{FW-CADIS Method}
+The Forward Weighted Consistent Adjoint Driven Importance Sampling \gls{fwcadis} method \cite{wagnerNSEFWCADIS} has typically been used to increase the efficiency to Monte Carlo calculations of distributions, such as flux or dose rate distributions (e.g., mesh tallies), as well as responses at multiple localized detectors and spectra. The basis of this method si the development of an importance function that represents the importance of particles to the objective of uniform Monte Carlo particle density in the desired tally regions. Implementation of this method utilizes the results from a forward of generating weight windows is ideal for a global
+\gls{sdr} photon problem such as this. Two calculations are performed, a
+neutron adjoint problem and a forward neutron problem, the combination of these
+calculations result in mathematically perfect space and enegy dependent biasing
+parameters for the problem simulated. 
+
+
 \subsection{Input Description}
 \subsubsection{The Model Geometry}
 The \gls{cad} model was generated from several sources, ITER Clite \gls{cad}
